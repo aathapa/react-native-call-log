@@ -56,6 +56,9 @@ build/
 .gradle
 local.properties
 *.iml
+android/build/
+android/.gradle/
+android/.settings/
 
 # node.js
 #
