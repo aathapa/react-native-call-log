@@ -9,6 +9,8 @@
 		"lib",
 		"src",
 		"android",
+		"ios",
+		"react-native-call-log.podspec",
 		"!**/__tests__",
 		"!**/__fixtures__",
 		"!**/__mocks__",
@@ -23,11 +25,16 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wscodelabs/react-native-call-log.git"
+		"url": "git+https://github.com/aathapa/react-native-call-log.git"
+	},
+	"homepage": "https://github.com/aathapa/react-native-call-log#readme",
+	"bugs": {
+		"url": "https://github.com/aathapa/react-native-call-log/issues"
 	},
 	"keywords": [
 		"react-native",
 		"android",
+		"ios",
 		"call-log",
 		"call-history",
 		"phone",
@@ -37,7 +44,7 @@
 		"turbomodule",
 		"new-architecture"
 	],
-	"author": "wscodelabs",
+	"author": "aathapa",
 	"license": "MIT",
 	"peerDependencies": {
 		"react": ">=18.0.0",
